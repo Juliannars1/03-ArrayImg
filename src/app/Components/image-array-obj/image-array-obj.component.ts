@@ -24,7 +24,7 @@ export class ImageArrayObjComponent {
       nameImage: 'familia simpson_36584218',
     },
   ];
-  selectedImageName: string = 'Aqui va el nombre de la Imagen';
+  selectedImageName: string = 'Titulo de la Imagen';
 
   onSendMessage(nameImage: string): void {
     this.selectedImageName = nameImage;

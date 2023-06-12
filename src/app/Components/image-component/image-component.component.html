@@ -2,8 +2,6 @@
   <h2>{{ image.nameImage | transformTitle | titlecase }}</h2>
   <div class="card-body">
     <img class="card-img" [src]="image.urlImage" [alt]="image.nameImage" />
-    <button class="btn btn-primary" (click)="onSendMessage()">
-      Enviar mensaje
-    </button>
+    <button class="btn btn1" (click)="onSendMessage()">Enviar mensaje</button>
   </div>
 </div>
